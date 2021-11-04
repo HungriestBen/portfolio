@@ -130,11 +130,18 @@ input::-moz-focus-inner {
 	margin: 0 auto;
 }
 
+.project-image {
+	opacity: 0.7;
+	animation-duration: 5.5s; 
+	animation-timing-function: ease-out; 
+	animation-delay: 2s;
+}
+
 .project-image:hover {
 	opacity: 1;
 	animation-duration: 5.5s; 
 	animation-timing-function: ease-out; 
-	animation-delay: 0s;
+	animation-delay: 2s;
 }
 
 input, select, textarea {
