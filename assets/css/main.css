@@ -1923,6 +1923,14 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 736px) {
+
+		header.major > p br {
+			display: none;
+		}
+
+	}
+
 /* Form */
 
 	form {
@@ -3478,10 +3486,13 @@ input, select, textarea {
 
 		}
 
+
+
 		@media screen and (max-width: 480px) {
 
 			#header .logo span {
 				display: none;
+				
 			}
 
 			#header nav a[href="#menu"] {
@@ -3490,6 +3501,7 @@ input, select, textarea {
 				text-indent: 5em;
 				white-space: nowrap;
 				width: 5em;
+				
 			}
 
 				#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
