@@ -90,12 +90,13 @@ input::-moz-focus-inner {
     justify-content: space-around;
     padding: 5px;
     gap: 5px;
-	min-width: 400px;
 }
 
 @media (max-width: 676px) {
 	.skills-icons {
 	  flex-direction: column;
+	  margin: 0 auto;
+	  text-align: center;
 	}
   }
 
